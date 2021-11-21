@@ -4,11 +4,11 @@ document.getElementById("registrarse").addEventListener("click", registrarse);
 window.addEventListener("resize", anchoPagina);
 
 //Declarando variables
-var formulario_ingreso = document.querySelector(".formulario-ingreso");
-var formulario_registro = document.querySelector(".formulario-registro");
-var contenedor_ingreso_registro = document.querySelector(".contenedor-ingreso-registro");
-var caja_posterior_ingreso = document.querySelector(".caja-posterior-ingreso");
-var caja_posterior_registro = document.querySelector(".caja-posterior-registro");
+let formulario_ingreso = document.querySelector(".formulario-ingreso");
+let formulario_registro = document.querySelector(".formulario-registro");
+let contenedor_ingreso_registro = document.querySelector(".contenedor-ingreso-registro");
+let caja_posterior_ingreso = document.querySelector(".caja-posterior-ingreso");
+let caja_posterior_registro = document.querySelector(".caja-posterior-registro");
 
     //FUNCIONES
 
